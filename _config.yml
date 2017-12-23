@@ -16,8 +16,8 @@
 title: To My Pals
 email: kevinvanemburgh@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Some things you try and succeed, most things you try and fail. Keep moving forward.
-baseurl: "" # the subpath of your site, e.g. /blog
+  Sometimes you try and succeed, most things you try and fail. Keep moving forward.
+baseurl: "/toMyPals" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: kvanemburgh
 github_username:  kvanemburgh
