@@ -14,11 +14,9 @@ layout: default
     {% for post in site.posts reversed %}
       <li class="post-list__item">
         <article>
-
           <h2>
             <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
           </h2>
-
           {{ post.content }}
         </article>
       </li>
@@ -28,14 +26,3 @@ layout: default
   <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
 
 </div>
-
-
-<!-- <article>
-  <h2>
-    <a href="{{ post.url }}">
-      {{ post.title }}
-    </a>
-  </h2>
-  <time datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date_to_long_string }}</time>
-  {{ post.content }}
-</article> -->
