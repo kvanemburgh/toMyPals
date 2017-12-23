@@ -42,3 +42,6 @@ plugins:
 
 sass:
   sass_dir: _sass
+
+# Google Analytics
+google_analytics: UA-111544472-1
