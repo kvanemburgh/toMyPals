@@ -6,11 +6,13 @@ layout: default
 
   {{ content }}
 
-  <h1 class="page-heading">Read This...Or Not</h1>
-  <h2 class="page-subheading">For Van and Luke, my two pals</h2>
+  <div class="header">
+    <h1 class="page-heading">Read This...Or Not</h1>
+    <h2 class="page-subheading">For Van and Luke, my two pals</h2>
+  </div>
 
   <ul class="post-list__items">
-    {% for post in site.posts reversed %}
+    {% for post in site.posts %}
       <li class="post-list__item">
         <article>
           <h2>

@@ -1,5 +1,5 @@
 body {
-  color: #333;
+  color: #414141;
 }
 
 h1,h2,h3,h4,h5 {
@@ -8,4 +8,13 @@ h1,h2,h3,h4,h5 {
 
 p,a {
   font-family: $base-font-family;
+}
+
+a,a:visited {
+  color: #55251D;
+}
+
+a:hover {
+  color: #4C5760;
+  text-decoration: none;
 }
