@@ -1,0 +1,16 @@
+.pagination {
+  background: #eaeaea;
+  padding: 1rem;
+  
+  a {
+    text-decoration: underline;
+    font-weight: 700;
+  }
+
+  .previous {
+    margin-right: 1rem;
+  }
+  .next {
+    margin-left: 1rem;
+  }
+}
