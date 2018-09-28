@@ -48,5 +48,5 @@ sass:
 # Google Analytics
 google_analytics: UA-111544472-1
 
-# paginate: 2
-# paginate_path: "/page/:num/"
+paginate: 2
+paginate_path: "/page/:num/"
